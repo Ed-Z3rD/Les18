@@ -1,0 +1,124 @@
+.playwrite-gb-s-h1 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+header {
+    background-color: #11e2fd;
+    background-image: url(damwald-bord.png);
+    background-size: 50%;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+body {
+    background-color: skyblue;
+    padding: 10px 10px;
+}
+
+footer {
+    background-color: #134aff;
+    height: 60px;
+    padding: 10px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+h1,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+#een {
+    height: auto;
+    background-color: lightgreen;
+}
+
+.vakje {
+    height: auto;
+    display: inline-block;
+}
+
+#twee {
+    height: auto;
+    background-color: brown;
+    clear: fixed;
+}
+
+img {
+    float: right;
+    scale: 60%;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px;
+}
