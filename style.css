@@ -24,7 +24,7 @@ footer {
     padding: 10px 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1200px) {
     body {
         background-color: red;
     }
@@ -116,7 +116,7 @@ h1 {
 
 img {
     float: right;
-    scale: 60%;
+    scale: 40%;
     margin-right: 5px;
     border-radius: 10px;
     border: 2px solid white;
